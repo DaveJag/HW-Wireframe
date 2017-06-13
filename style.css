@@ -1,0 +1,99 @@
+/* Dave Jagodowski - HW01 - Wireframe */
+
+#body	{
+	width: 960px;
+	height: 600px;
+	background-color: #777;
+	padding: 0px 100px 60px 100px;
+	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+	color: #ebebeb;
+	font-size: 18px; 
+}
+
+#header {
+	width: 960px;
+	height: 62px;
+	margin: 6px 0px 6px 0px;
+	padding-top: 8px;
+	background-color: #fff;
+	text-align: center;
+}
+
+#nav {
+	width: 960px;
+	height: 62px;
+	margin: 6px 0px 6px 0px;
+	padding-top: 8px;
+	text-align: center;
+	background-color: #fff;
+}
+
+.container 	{
+	position: relative;
+	width: 960px;
+    height: 306px;
+    background: #777;
+    margin-top: 12px;
+}
+
+.section {
+	float: left; 
+	/*width: 495px; */
+	width: 495px;
+	height: 294px;
+	/*padding: 6px 12px 12px 12px; */ 
+	padding-top: 6px;
+	text-align: center;
+	background-color: #fff;	
+}
+
+.aside {
+	margin-left: 508px;
+	height: 294px;
+	padding-top: 6px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.article {
+	position: absolute;
+	margin: 0px 12px 12px 12px; 
+	top: 25%;
+	bottom: 6px;
+	width: 468px; 
+	color: #fff;
+	text-align: center;
+	background-color: #777;
+}
+
+.headers {
+	position: absolute;
+	top: 136px; 
+	left: 28px; 
+	width: 440px;
+	height: 60px;
+	background-color: #fff;
+}
+
+.content	{
+	position: absolute;
+	top: 210px; 
+	left: 28px;
+	width: 440px;
+	height: 60px;
+	background-color: #fff;
+}
+
+#footer {
+	/*clear: left; */
+	width: 100%;
+	height: 70px;
+	padding-top: 10px;
+	margin: 12px 0px 6px 0px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.clearfix {
+    overflow: auto;
+}

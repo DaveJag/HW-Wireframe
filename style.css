@@ -1,8 +1,8 @@
 /* Dave Jagodowski - HW01 - Wireframe */
 
-#body	{
+.body	{
 	width: 960px;
-	height: 600px;
+	height: auto;
 	background-color: #777;
 	padding: 0px 100px 60px 100px;
 	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
@@ -10,7 +10,7 @@
 	font-size: 18px; 
 }
 
-#header {
+.header {
 	width: 960px;
 	height: 62px;
 	margin: 6px 0px 6px 0px;
@@ -19,7 +19,7 @@
 	text-align: center;
 }
 
-#nav {
+.nav {
 	width: 960px;
 	height: 62px;
 	margin: 6px 0px 6px 0px;
@@ -28,26 +28,24 @@
 	background-color: #fff;
 }
 
-.container 	{
+main 	{
 	position: relative;
 	width: 960px;
     height: 306px;
     background: #777;
-    margin-top: 12px;
+    margin-top: 16px;
 }
 
-.section {
+section {
 	float: left; 
-	/*width: 495px; */
 	width: 495px;
 	height: 294px;
-	/*padding: 6px 12px 12px 12px; */ 
 	padding-top: 6px;
 	text-align: center;
 	background-color: #fff;	
 }
 
-.aside {
+aside {
 	margin-left: 508px;
 	height: 294px;
 	padding-top: 6px;
@@ -55,7 +53,7 @@
 	text-align: center;
 }
 
-.article {
+article {
 	position: absolute;
 	margin: 0px 12px 12px 12px; 
 	top: 25%;
@@ -68,8 +66,8 @@
 
 .headers {
 	position: absolute;
-	top: 136px; 
-	left: 28px; 
+		top: 60px; 
+		left: 16px; 
 	width: 440px;
 	height: 60px;
 	background-color: #fff;
@@ -77,23 +75,60 @@
 
 .content	{
 	position: absolute;
-	top: 210px; 
-	left: 28px;
+		top: 132px; 
+		left: 16px;
 	width: 440px;
 	height: 60px;
 	background-color: #fff;
 }
 
-#footer {
+.footer {
 	/*clear: left; */
 	width: 100%;
 	height: 70px;
 	padding-top: 10px;
-	margin: 12px 0px 6px 0px;
+	margin: 10px 0px 6px 0px;
 	background-color: #fff;
 	text-align: center;
 }
 
-.clearfix {
-    overflow: auto;
+.clear:after {
+    clear: both;
+    content: ".";   /* for older browsers that do not support empty content */
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+/* Define how the text and headings will be formatted */
+
+h1.format { 
+ 	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+	color: #ebebeb;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2.format {
+	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+	color: #ebebeb;
+    font-size: 1.2em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+p.format {
+	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+	color: #ebebeb;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
 }
